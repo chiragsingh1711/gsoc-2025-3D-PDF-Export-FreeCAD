@@ -12,6 +12,8 @@ This project implements a seamless 3D PDF export feature integrated directly int
 
 [Proposal PDF](images/pdfs/Issue-12843%20%20Proposal%20-%20Chirag%20Singh.pdf?raw=true)
 
+[FreeCAD Forum Topic](https://forum.freecad.org/viewtopic.php?t=95828&sid=dd62e37b05f3bf725c45470ccbab37a3)
+
 ## Project Goals
 
 ### 1. U3D Export Implementation
@@ -92,43 +94,50 @@ After switching to the `3d-pdf-export-pr-2` branch, build the FreeCAD project fo
 
 Once FreeCAD is built and running, open an existing document or create a new one. If creating a new document, go to the Part Workbench and add a primitive shape (like a cube, sphere, or cylinder) to the document, which you will later export.
 
-_(image)_
+<img width="3839" height="2399" alt="image" src="https://github.com/user-attachments/assets/1e9c8a4a-145f-4287-8f92-7ed64f03c0d5" />
+
 
 **Step 3: Switch to TechDraw Workbench**
 
 Next, switch to the TechDraw workbench. This workbench is where you will create the technical drawing page and add the interactive 3D views.
 
-_(image)_
+<img width="2051" height="1163" alt="image" src="https://github.com/user-attachments/assets/6ebb7c6b-4e6e-488c-9432-b3a366caf6d9" />
+
 
 **Step 4: Add a New Page**
 
 In TechDraw, add a new empty page or select a pre-made template page to start your technical drawing.
 
-_(image)_
+<img width="3839" height="2399" alt="image" src="https://github.com/user-attachments/assets/27daaa49-1d51-4fa7-9992-22887e5695f9" />
+
 
 **Step 5: Add an ActiveView and Enable 3D Export**
 
 Add an ActiveView to your TechDraw page. In the ActiveView’s properties, set the "3D PDF Export" boolean property to True. This tells FreeCAD to treat this view as a 3D embed in the exported PDF.
 
-_(image)_
+<img width="1559" height="1677" alt="image" src="https://github.com/user-attachments/assets/25fcdf8f-7360-44df-9fef-8645ba4756f2" />
+
 
 **Step 6: Export the PDF**
 
 Click the PDF Export button in the TechDraw workbench. This will export the current drawing and include the 3D embed for any ActiveViews marked for 3D export.
 
-_(image)_
+<img width="2999" height="1756" alt="image" src="https://github.com/user-attachments/assets/09444eba-69a4-440d-8613-fe10f3f7b48e" />
+
 
 **Step 7: Save the PDF**
 
 Choose the location on your computer where you want to save the exported PDF file.
 
-_(image)_
+<img width="3809" height="1674" alt="image" src="https://github.com/user-attachments/assets/2f2892c2-9bfb-45e0-aad9-d869e4607078" />
+
 
 ## Result
 
 Open the saved PDF in a compatible viewer such as Adobe Reader. You will see the technical drawing along with the interactive 3D model embedded in the PDF. You can rotate, pan, and zoom the 3D model directly within the PDF document.
 
-_(image)_
+<img width="3823" height="2399" alt="image" src="https://github.com/user-attachments/assets/b9159db1-8e77-470d-bb3e-a6fe232e4ae5" />
+
 
 ## Future Work
 
